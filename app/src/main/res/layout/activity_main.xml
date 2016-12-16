@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.dalong.androidrulerview.MainActivity">
+
+    <EditText
+        android:id="@+id/edit"
+        android:enabled="false"
+        android:textSize="20sp"
+        android:textColor="@color/scaleColor"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.dalong.rulerview.RulerView
+        android:id="@+id/ruler"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mMaxValue="100"
+        app:mMinValue="0"
+        app:mScaleBase="1"
+        app:mScaleSpace="10dp"
+        app:mMaxScaleColor="@color/scaleColor"
+        app:mMidScaleColor="@color/scaleColor"
+        app:mMinScaleColor="@color/scaleColor"
+        app:mBottomLineColor="@color/scaleColor"
+        app:mMaxScaleHeightRatio="0.4"
+        app:mMidScaleHeightRatio="0.3"
+        app:mMinScaleHeightRatio="0.2"
+        app:mMaxScaleWidth="2.5dp"
+        app:mMidScaleWidth="2dp"
+        app:mMinScaleWidth="2dp"
+        app:mBottomLineWidth="2.5dp"
+        app:mCurrentValue="0"
+        app:mScaleValueColor="@color/scaleColor"
+        app:mScaleValueSize="12sp"
+        app:mMiddleImg="@mipmap/icon_arrow"
+        app:isScaleGradient="false"
+         />
+
+
+    <EditText
+        android:id="@+id/edit2"
+        android:enabled="false"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.dalong.rulerview.RulerView
+        android:id="@+id/ruler2"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mMaxValue="5000"
+        app:mMinValue="1000"
+        app:mScaleBase="100"
+        app:mScaleSpace="10dp"
+        app:mMaxScaleColor="@color/colorAccent"
+        app:mMidScaleColor="@color/colorPrimary"
+        app:mMinScaleColor="@color/colorPrimary"
+        app:mBottomLineColor="@color/colorAccent"
+        app:mMaxScaleHeightRatio="0.5"
+        app:mMidScaleHeightRatio="0.3"
+        app:mMinScaleHeightRatio="0.2"
+        app:mMaxScaleWidth="2.5dp"
+        app:mMidScaleWidth="2dp"
+        app:mMinScaleWidth="2dp"
+        app:mBottomLineWidth="2.5dp"
+        app:mCurrentValue="1000"
+        app:mScaleValueColor="@color/colorAccent"
+        app:mScaleValueSize="12sp"
+        app:mMiddleImg="@mipmap/icon_arrow"
+        app:isScaleGradient="false"
+        />
+
+
+    <EditText
+        android:id="@+id/edit3"
+        android:enabled="false"
+        android:textSize="20sp"
+        android:textColor="@color/colorAccent"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <com.dalong.rulerview.RulerView
+        android:id="@+id/ruler3"
+        android:layout_centerInParent="true"
+        android:layout_width="450dp"
+        android:layout_height="wrap_content"
+        app:mMaxValue="500"
+        app:mMinValue="100"
+        app:mScaleBase="10"
+        app:mScaleSpace="5dp"
+        app:mMaxScaleColor="@color/colorAccent"
+        app:mMidScaleColor="@android:color/holo_green_light"
+        app:mMinScaleColor="@color/colorPrimary"
+        app:mBottomLineColor="@color/colorAccent"
+        app:mMaxScaleHeightRatio="0.4"
+        app:mMidScaleHeightRatio="0.3"
+        app:mMinScaleHeightRatio="0.2"
+        app:mMaxScaleWidth="1dp"
+        app:mMidScaleWidth="1dp"
+        app:mMinScaleWidth="1dp"
+        app:mBottomLineWidth="1dp"
+        app:mCurrentValue="0"
+        app:mScaleValueColor="@color/colorAccent"
+        app:mScaleValueSize="12sp"
+        app:mMiddleImg="@mipmap/icon_arrow"
+        app:isScaleGradient="false"
+        />
+</LinearLayout>

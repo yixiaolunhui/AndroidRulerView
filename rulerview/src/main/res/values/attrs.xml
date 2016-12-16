@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RulerView">
+        <!--最大刻度的颜色-->
+        <attr name="mMaxScaleColor" format="color"/>
+        <!--中间刻度的颜色-->
+        <attr name="mMidScaleColor" format="color"/>
+        <!--最小刻度的颜色-->
+        <attr name="mMinScaleColor" format="color"/>
+        <!--底线的颜色-->
+        <attr name="mBottomLineColor" format="color"/>
+        <!--最大刻度的宽度-->
+        <attr name="mMaxScaleWidth" format="dimension"/>
+        <!--中间刻度的宽度-->
+        <attr name="mMidScaleWidth" format="dimension"/>
+        <!--最小刻度的宽度-->
+        <attr name="mMinScaleWidth" format="dimension"/>
+        <!--底线的宽度-->
+        <attr name="mBottomLineWidth" format="dimension"/>
+        <!--最大刻度的高度占控件的高度比例-->
+        <attr name="mMaxScaleHeightRatio" format="float"/>
+        <!--中间刻度的高度占控件的高度比例-->
+        <attr name="mMidScaleHeightRatio" format="float"/>
+        <!--最小刻度的高度占控件的高度比例-->
+        <attr name="mMinScaleHeightRatio" format="float"/>
+        <!--是否显示刻度值-->
+        <attr name="isShowScaleValue" format="boolean"/>
+        <!--是否刻度渐变 包括刻度值和刻度线及下面的线-->
+        <attr name="isScaleGradient" format="boolean"/>
+        <!--刻度值颜色-->
+        <attr name="mScaleValueColor" format="color"/>
+        <!--刻度值文字大小-->
+        <attr name="mScaleValueSize" format="dimension"/>
+        <!--刻度值间隔-->
+        <attr name="mScaleSpace" format="dimension"/>
+        <!-- 当前值-->
+        <attr name="mCurrentValue" format="integer"/>
+        <!--最大值-->
+        <attr name="mMaxValue" format="integer"/>
+        <!--最小值-->
+        <attr name="mMinValue" format="integer"/>
+        <!--刻度基数-->
+        <attr name="mScaleBase" format="integer"/>
+        <!--中间图标-->
+        <attr name="mMiddleImg" format="reference"/>
+    </declare-styleable>
+</resources>
